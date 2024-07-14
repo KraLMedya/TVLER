@@ -1,0 +1,23 @@
+<HTML><HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1254">
+<meta http-equiv="refresh" content="66666660;URL=https://selotv.xyz/trthaber.m3u8">
+<TITLE>KRAL MEDYA TV</TITLE></HEAD>
+<BODY leftMargin=0 topMargin=0><body bgcolor=black><center>
+<div class="HTML5Player">
+<video controls autoplay preload="auto" style=" width:100%;  height:100%;" id="HTML5Player" 
+poster="https://kralmedya.github.io/FOTOLAR/KRALMEDYA-LOGO.png">
+<source src="" type="application/x-mpegURL"></video></div>
+<div class="HTML5Player">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/0.14.2/hls.light.min.js"></script>
+<script>
+if(Hls.isSupported()) {
+var video = document.getElementById('HTML5Player');
+var hls = new Hls();
+hls.loadSource('https://bozztv.com/inim03/live1/atv-tv/chunks.m3u8');
+hls.attachMedia(video);
+hls.on(Hls.Events.MANIFEST_PARSED,function() {
+video.play();});}
+</script>
+</div>
+</center>  </BODY></HTML>
