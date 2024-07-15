@@ -12,7 +12,7 @@ poster="">
 if(Hls.isSupported()) {
 var video = document.getElementById('HTML5Player');
 var hls = new Hls();
-hls.loadSource('https://s01.vpis.io/besiktas/besiktas.m3u8');
+hls.loadSource('https://outbound-production.explore.org/stream-production-85.m3u8');
 hls.attachMedia(video);
 hls.on(Hls.Events.MANIFEST_PARSED,function() {
 video.play();});}
